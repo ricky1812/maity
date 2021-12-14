@@ -1,0 +1,28 @@
+asgiref==3.3.1
+Django==3.1.5
+django-guardian==2.3.0
+django-money==1.2.2
+django-phonenumber-field==5.0.0
+djangorestframework==3.12.2
+
+# PyJWT is used by simplejwt and version 2.0.0 is failing. When fix is provided in new version, update packages. Issue
+#tracker:: "https://github.com/SimpleJWT/django-rest-framework-simplejwt/issues/326"
+PyJWT==1.7.1
+
+djangorestframework-simplejwt==4.4.0
+firebase-admin==4.5.0
+phonenumberslite==8.12.15
+psycopg2==2.8.6
+py-moneyed==0.8.0
+python-decouple==3.4
+pytz==2020.5
+sqlparse==0.4.1
+
+sentry-sdk==1.0.0
+channels==3.0.3
+django-elasticsearch-dsl==7.1.4
+geopy==2.1.0
+channels-redis==3.2.0
+cryptography=3.4.7
+
+boto3==1.17.69
